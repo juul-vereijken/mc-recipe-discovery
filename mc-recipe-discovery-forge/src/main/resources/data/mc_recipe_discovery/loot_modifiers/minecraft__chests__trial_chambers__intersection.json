@@ -1,0 +1,15 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/trial_chambers/intersection"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:copper_bulb",
+      "minecraft:waxed_copper_bulb"
+    ]
+  ]
+}

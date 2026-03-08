@@ -1,0 +1,38 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "nova_structures:chests/lost_bunker"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:iron_door",
+      "minecraft:iron_trapdoor",
+      "minecraft:iron_bars",
+      "minecraft:iron_block"
+    ],
+    [
+      "minecraft:piston",
+      "minecraft:sticky_piston",
+      "minecraft:dispenser",
+      "minecraft:dropper",
+      "minecraft:hopper",
+      "minecraft:observer"
+    ],
+    [
+      "minecraft:repeater",
+      "minecraft:comparator",
+      "minecraft:redstone_torch",
+      "minecraft:redstone_lamp",
+      "minecraft:daylight_detector",
+      "minecraft:target"
+    ],
+    [
+      "minecraft:tnt",
+      "minecraft:fire_charge",
+      "minecraft:flint_and_steel"
+    ]
+  ]
+}

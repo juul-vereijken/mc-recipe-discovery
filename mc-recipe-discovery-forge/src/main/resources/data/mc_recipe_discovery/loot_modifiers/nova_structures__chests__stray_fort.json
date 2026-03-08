@@ -1,0 +1,27 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "nova_structures:chests/stray_fort"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:packed_ice",
+      "minecraft:blue_ice",
+      "minecraft:snow_block"
+    ],
+    [
+      "minecraft:soul_torch",
+      "minecraft:soul_lantern",
+      "minecraft:soul_campfire"
+    ],
+    [
+      "minecraft:chainmail_helmet",
+      "minecraft:chainmail_chestplate",
+      "minecraft:chainmail_leggings",
+      "minecraft:chainmail_boots"
+    ]
+  ]
+}

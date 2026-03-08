@@ -1,0 +1,24 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/stronghold_corridor"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:iron_pickaxe",
+      "minecraft:iron_axe",
+      "minecraft:iron_shovel",
+      "minecraft:iron_sword",
+      "minecraft:iron_hoe"
+    ],
+    [
+      "minecraft:iron_helmet",
+      "minecraft:iron_chestplate",
+      "minecraft:iron_leggings",
+      "minecraft:iron_boots"
+    ]
+  ]
+}

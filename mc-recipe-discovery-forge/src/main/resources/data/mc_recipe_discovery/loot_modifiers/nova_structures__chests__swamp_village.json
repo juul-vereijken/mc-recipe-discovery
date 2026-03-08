@@ -1,0 +1,36 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "nova_structures:chests/swamp_village"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:brewing_stand",
+      "minecraft:cauldron",
+      "minecraft:flower_pot",
+      "minecraft:composter"
+    ],
+    [
+      "minecraft:oak_boat",
+      "minecraft:spruce_boat",
+      "minecraft:oak_chest_boat",
+      "minecraft:spruce_chest_boat",
+      "minecraft:fishing_rod",
+      "minecraft:bucket"
+    ],
+    [
+      "minecraft:slime_block"
+    ],
+    [
+      "minecraft:oak_planks",
+      "minecraft:oak_slab",
+      "minecraft:oak_stairs",
+      "minecraft:oak_door",
+      "minecraft:oak_fence",
+      "minecraft:oak_fence_gate"
+    ]
+  ]
+}

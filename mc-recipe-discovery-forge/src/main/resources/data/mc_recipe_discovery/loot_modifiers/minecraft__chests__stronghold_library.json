@@ -1,0 +1,22 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/stronghold_library"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:enchanting_table",
+      "minecraft:bookshelf",
+      "minecraft:book",
+      "minecraft:lectern",
+      "minecraft:chiseled_bookshelf"
+    ],
+    [
+      "minecraft:ender_chest",
+      "minecraft:eye_of_ender"
+    ]
+  ]
+}

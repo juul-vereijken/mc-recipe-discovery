@@ -1,0 +1,34 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/jungle_temple"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:piston",
+      "minecraft:sticky_piston",
+      "minecraft:dispenser",
+      "minecraft:dropper",
+      "minecraft:observer"
+    ],
+    [
+      "minecraft:hopper",
+      "minecraft:comparator",
+      "minecraft:repeater",
+      "minecraft:daylight_detector",
+      "minecraft:target"
+    ],
+    [
+      "minecraft:tripwire_hook",
+      "minecraft:redstone_torch",
+      "minecraft:redstone_lamp"
+    ],
+    [
+      "minecraft:note_block",
+      "minecraft:jukebox"
+    ]
+  ]
+}

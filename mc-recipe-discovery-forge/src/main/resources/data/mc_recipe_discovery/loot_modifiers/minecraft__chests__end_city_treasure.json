@@ -1,0 +1,36 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/end_city_treasure"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:end_crystal",
+      "minecraft:end_stone_bricks",
+      "minecraft:end_stone_brick_slab",
+      "minecraft:end_stone_brick_stairs",
+      "minecraft:end_stone_brick_wall"
+    ],
+    [
+      "minecraft:purpur_block",
+      "minecraft:purpur_slab",
+      "minecraft:purpur_stairs",
+      "minecraft:purpur_pillar"
+    ],
+    [
+      "minecraft:popped_chorus_fruit"
+    ],
+    [
+      "minecraft:diamond_sword",
+      "minecraft:diamond_pickaxe",
+      "minecraft:diamond_axe",
+      "minecraft:diamond_helmet",
+      "minecraft:diamond_chestplate",
+      "minecraft:diamond_leggings",
+      "minecraft:diamond_boots"
+    ]
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/trial_chambers/entrance"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:tuff_brick_slab",
+      "minecraft:tuff_brick_stairs",
+      "minecraft:tuff_brick_wall",
+      "minecraft:polished_tuff_slab",
+      "minecraft:polished_tuff_stairs"
+    ]
+  ]
+}

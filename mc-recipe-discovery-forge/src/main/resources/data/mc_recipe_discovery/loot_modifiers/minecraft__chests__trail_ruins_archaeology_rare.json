@@ -1,0 +1,22 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/trail_ruins_archaeology_rare"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:tuff_bricks",
+      "minecraft:tuff_brick_slab",
+      "minecraft:tuff_brick_stairs",
+      "minecraft:tuff_brick_wall",
+      "minecraft:chiseled_tuff",
+      "minecraft:polished_tuff",
+      "minecraft:polished_tuff_slab",
+      "minecraft:polished_tuff_stairs",
+      "minecraft:polished_tuff_wall"
+    ]
+  ]
+}

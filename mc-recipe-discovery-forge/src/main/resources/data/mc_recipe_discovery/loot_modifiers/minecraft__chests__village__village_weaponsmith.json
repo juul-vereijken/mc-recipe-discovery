@@ -1,0 +1,26 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/village/village_weaponsmith"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:iron_sword",
+      "minecraft:golden_sword",
+      "minecraft:diamond_sword"
+    ],
+    [
+      "minecraft:iron_axe",
+      "minecraft:golden_axe",
+      "minecraft:diamond_axe"
+    ],
+    [
+      "minecraft:shield",
+      "minecraft:flint_and_steel",
+      "minecraft:shears"
+    ]
+  ]
+}

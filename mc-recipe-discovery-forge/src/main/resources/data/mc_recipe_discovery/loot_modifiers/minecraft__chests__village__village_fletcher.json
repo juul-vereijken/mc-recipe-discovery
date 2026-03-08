@@ -1,0 +1,20 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/village/village_fletcher"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:bow",
+      "minecraft:crossbow",
+      "minecraft:arrow",
+      "minecraft:spectral_arrow"
+    ],
+    [
+      "minecraft:fletching_table"
+    ]
+  ]
+}

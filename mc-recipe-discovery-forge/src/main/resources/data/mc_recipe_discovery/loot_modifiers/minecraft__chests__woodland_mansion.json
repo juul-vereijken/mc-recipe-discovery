@@ -1,0 +1,34 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/woodland_mansion"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:enchanting_table",
+      "minecraft:chiseled_bookshelf",
+      "minecraft:bookshelf",
+      "minecraft:lectern"
+    ],
+    [
+      "minecraft:diamond_sword",
+      "minecraft:diamond_pickaxe",
+      "minecraft:diamond_helmet",
+      "minecraft:diamond_chestplate",
+      "minecraft:diamond_leggings",
+      "minecraft:diamond_boots"
+    ],
+    [
+      "minecraft:golden_apple",
+      "minecraft:golden_carrot"
+    ],
+    [
+      "minecraft:note_block",
+      "minecraft:jukebox",
+      "minecraft:painting"
+    ]
+  ]
+}

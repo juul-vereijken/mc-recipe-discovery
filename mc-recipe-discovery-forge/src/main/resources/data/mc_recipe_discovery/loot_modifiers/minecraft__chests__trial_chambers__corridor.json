@@ -1,0 +1,16 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/trial_chambers/corridor"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:cut_copper",
+      "minecraft:waxed_cut_copper",
+      "minecraft:copper_grate"
+    ]
+  ]
+}

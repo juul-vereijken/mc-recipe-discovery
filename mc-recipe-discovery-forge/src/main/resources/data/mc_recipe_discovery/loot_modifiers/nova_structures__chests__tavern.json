@@ -1,0 +1,55 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "nova_structures:chests/tavern"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:barrel",
+      "minecraft:smoker",
+      "minecraft:blast_furnace",
+      "minecraft:campfire",
+      "minecraft:soul_campfire"
+    ],
+    [
+      "minecraft:crafting_table",
+      "minecraft:chest",
+      "minecraft:furnace",
+      "minecraft:trapped_chest"
+    ],
+    [
+      "minecraft:bread",
+      "minecraft:cake",
+      "minecraft:cookie",
+      "minecraft:pumpkin_pie",
+      "minecraft:bowl",
+      "minecraft:mushroom_stew"
+    ],
+    [
+      "minecraft:oak_trapdoor",
+      "minecraft:spruce_trapdoor",
+      "minecraft:birch_trapdoor",
+      "minecraft:jungle_trapdoor",
+      "minecraft:acacia_trapdoor",
+      "minecraft:dark_oak_trapdoor"
+    ],
+    [
+      "minecraft:oak_button",
+      "minecraft:spruce_button",
+      "minecraft:birch_button",
+      "minecraft:stone_button",
+      "minecraft:polished_blackstone_button"
+    ],
+    [
+      "minecraft:oak_pressure_plate",
+      "minecraft:spruce_pressure_plate",
+      "minecraft:stone_pressure_plate",
+      "minecraft:polished_blackstone_pressure_plate",
+      "minecraft:heavy_weighted_pressure_plate",
+      "minecraft:light_weighted_pressure_plate"
+    ]
+  ]
+}

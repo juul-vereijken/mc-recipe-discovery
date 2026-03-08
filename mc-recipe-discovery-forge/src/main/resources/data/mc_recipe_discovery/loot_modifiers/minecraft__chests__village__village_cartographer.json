@@ -1,0 +1,25 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/village/village_cartographer"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:compass",
+      "minecraft:clock",
+      "minecraft:map"
+    ],
+    [
+      "minecraft:item_frame",
+      "minecraft:glow_item_frame",
+      "minecraft:painting",
+      "minecraft:armor_stand"
+    ],
+    [
+      "minecraft:cartography_table"
+    ]
+  ]
+}

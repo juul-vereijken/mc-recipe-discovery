@@ -1,0 +1,45 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "nova_structures:chests/lone_citadel"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:diamond_sword",
+      "minecraft:diamond_pickaxe",
+      "minecraft:diamond_axe",
+      "minecraft:diamond_shovel",
+      "minecraft:diamond_hoe"
+    ],
+    [
+      "minecraft:diamond_helmet",
+      "minecraft:diamond_chestplate",
+      "minecraft:diamond_leggings",
+      "minecraft:diamond_boots"
+    ],
+    [
+      "minecraft:enchanting_table",
+      "minecraft:anvil",
+      "minecraft:smithing_table",
+      "minecraft:grindstone"
+    ],
+    [
+      "minecraft:netherite_sword",
+      "minecraft:netherite_pickaxe",
+      "minecraft:netherite_axe"
+    ],
+    [
+      "minecraft:netherite_helmet",
+      "minecraft:netherite_chestplate",
+      "minecraft:netherite_leggings",
+      "minecraft:netherite_boots"
+    ],
+    [
+      "minecraft:netherite_block",
+      "minecraft:lodestone"
+    ]
+  ]
+}

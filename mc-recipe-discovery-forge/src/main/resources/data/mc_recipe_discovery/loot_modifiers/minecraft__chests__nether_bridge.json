@@ -1,0 +1,33 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/nether_bridge"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:nether_brick",
+      "minecraft:nether_brick_slab",
+      "minecraft:nether_brick_stairs",
+      "minecraft:nether_brick_wall",
+      "minecraft:nether_brick_fence"
+    ],
+    [
+      "minecraft:red_nether_bricks",
+      "minecraft:red_nether_brick_slab",
+      "minecraft:red_nether_brick_stairs",
+      "minecraft:red_nether_brick_wall"
+    ],
+    [
+      "minecraft:blaze_powder",
+      "minecraft:magma_cream",
+      "minecraft:fire_charge",
+      "minecraft:brewing_stand"
+    ],
+    [
+      "minecraft:magma_block"
+    ]
+  ]
+}

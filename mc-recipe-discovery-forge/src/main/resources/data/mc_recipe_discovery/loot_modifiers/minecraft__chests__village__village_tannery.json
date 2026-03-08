@@ -1,0 +1,23 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/village/village_tannery"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:leather_helmet",
+      "minecraft:leather_chestplate",
+      "minecraft:leather_leggings",
+      "minecraft:leather_boots"
+    ],
+    [
+      "minecraft:book",
+      "minecraft:bookshelf",
+      "minecraft:lectern",
+      "minecraft:chiseled_bookshelf"
+    ]
+  ]
+}

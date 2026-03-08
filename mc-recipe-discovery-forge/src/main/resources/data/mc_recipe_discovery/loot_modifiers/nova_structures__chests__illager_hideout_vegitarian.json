@@ -1,0 +1,29 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "nova_structures:chests/illager_hideout_vegitarian"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:composter",
+      "minecraft:barrel",
+      "minecraft:flower_pot",
+      "minecraft:bowl"
+    ],
+    [
+      "minecraft:bread",
+      "minecraft:pumpkin_pie",
+      "minecraft:cake",
+      "minecraft:cookie",
+      "minecraft:dried_kelp_block"
+    ],
+    [
+      "minecraft:hay_block",
+      "minecraft:melon",
+      "minecraft:melon_slice"
+    ]
+  ]
+}

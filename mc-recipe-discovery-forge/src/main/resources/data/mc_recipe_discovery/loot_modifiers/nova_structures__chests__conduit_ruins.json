@@ -1,0 +1,29 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "nova_structures:chests/conduit_ruins"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:conduit"
+    ],
+    [
+      "minecraft:prismarine",
+      "minecraft:prismarine_bricks",
+      "minecraft:dark_prismarine",
+      "minecraft:sea_lantern"
+    ],
+    [
+      "minecraft:prismarine_slab",
+      "minecraft:prismarine_brick_slab",
+      "minecraft:dark_prismarine_slab",
+      "minecraft:prismarine_stairs",
+      "minecraft:prismarine_brick_stairs",
+      "minecraft:dark_prismarine_stairs",
+      "minecraft:prismarine_wall"
+    ]
+  ]
+}

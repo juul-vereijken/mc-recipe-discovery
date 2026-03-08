@@ -1,0 +1,49 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/simple_dungeon"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:crafting_table",
+      "minecraft:chest",
+      "minecraft:furnace",
+      "minecraft:stick",
+      "minecraft:torch"
+    ],
+    [
+      "minecraft:wooden_pickaxe",
+      "minecraft:wooden_axe",
+      "minecraft:wooden_shovel",
+      "minecraft:wooden_sword",
+      "minecraft:wooden_hoe"
+    ],
+    [
+      "minecraft:stone_pickaxe",
+      "minecraft:stone_axe",
+      "minecraft:stone_shovel",
+      "minecraft:stone_sword",
+      "minecraft:stone_hoe"
+    ],
+    [
+      "minecraft:bow",
+      "minecraft:arrow",
+      "minecraft:fishing_rod"
+    ],
+    [
+      "minecraft:ladder",
+      "minecraft:scaffolding",
+      "minecraft:lantern",
+      "minecraft:soul_lantern"
+    ],
+    [
+      "minecraft:bread",
+      "minecraft:bowl",
+      "minecraft:mushroom_stew",
+      "minecraft:pumpkin_pie"
+    ]
+  ]
+}

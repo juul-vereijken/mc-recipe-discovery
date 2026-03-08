@@ -1,0 +1,26 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/underwater_ruin_big"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:prismarine",
+      "minecraft:prismarine_bricks",
+      "minecraft:dark_prismarine"
+    ],
+    [
+      "minecraft:prismarine_slab",
+      "minecraft:prismarine_brick_slab",
+      "minecraft:dark_prismarine_slab",
+      "minecraft:prismarine_stairs",
+      "minecraft:prismarine_brick_stairs",
+      "minecraft:dark_prismarine_stairs",
+      "minecraft:prismarine_wall",
+      "minecraft:sea_lantern"
+    ]
+  ]
+}

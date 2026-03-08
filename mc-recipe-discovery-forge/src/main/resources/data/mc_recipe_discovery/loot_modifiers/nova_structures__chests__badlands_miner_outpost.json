@@ -1,0 +1,50 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "nova_structures:chests/badlands_miner_outpost"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:iron_pickaxe",
+      "minecraft:iron_shovel",
+      "minecraft:iron_axe",
+      "minecraft:iron_sword"
+    ],
+    [
+      "minecraft:diamond_pickaxe",
+      "minecraft:diamond_shovel",
+      "minecraft:diamond_axe"
+    ],
+    [
+      "minecraft:blast_furnace",
+      "minecraft:smoker",
+      "minecraft:anvil",
+      "minecraft:smithing_table",
+      "minecraft:grindstone"
+    ],
+    [
+      "minecraft:iron_block",
+      "minecraft:gold_block",
+      "minecraft:redstone_block",
+      "minecraft:lapis_block",
+      "minecraft:coal_block",
+      "minecraft:copper_block",
+      "minecraft:raw_iron_block",
+      "minecraft:raw_gold_block",
+      "minecraft:raw_copper_block"
+    ],
+    [
+      "minecraft:powered_rail",
+      "minecraft:rail",
+      "minecraft:detector_rail",
+      "minecraft:activator_rail",
+      "minecraft:minecart",
+      "minecraft:chest_minecart",
+      "minecraft:hopper_minecart",
+      "minecraft:tnt_minecart"
+    ]
+  ]
+}

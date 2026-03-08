@@ -1,0 +1,38 @@
+modLoader="javafml"
+loaderVersion="[52,)"
+license="MIT"
+
+[[dependencies.mc_recipe_discovery]]
+    modId="forge"
+    mandatory=true
+    versionRange="[52,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.mc_recipe_discovery]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21.1,1.22)"
+    ordering="NONE"
+    side="BOTH"
+
+[[mods]]
+    modId="mc_recipe_discovery"
+    version="1.0.0"
+    displayName="Recipe Discovery"
+    logoFile="logo.png"
+    description='''
+A Minecraft 1.21 mod that locks all crafting recipes behind Knowledge Books
+hidden in structure chests. Find them to learn them.
+
+Works with Dungeons and Taverns and any other mod that adds loot tables —
+no load order required.
+'''
+
+[[mods.dependencies]]
+    modId="forge"
+    mandatory=true
+    versionRange="[52,)"
+
+# Optional: Dungeons and Taverns support is built-in
+# If DnT is present, its structures will also contain Recipe Books automatically.

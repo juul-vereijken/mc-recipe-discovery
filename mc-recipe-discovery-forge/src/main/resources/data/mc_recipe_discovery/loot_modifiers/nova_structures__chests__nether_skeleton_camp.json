@@ -1,0 +1,21 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "nova_structures:chests/nether_skeleton_camp"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:bone_block",
+      "minecraft:soul_sand",
+      "minecraft:soul_soil"
+    ],
+    [
+      "minecraft:nether_brick",
+      "minecraft:nether_brick_fence",
+      "minecraft:nether_brick_slab"
+    ]
+  ]
+}

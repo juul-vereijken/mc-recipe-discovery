@@ -1,0 +1,38 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "nova_structures:chests/mangrove_witch_hut"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:brewing_stand",
+      "minecraft:cauldron"
+    ],
+    [
+      "minecraft:fermented_spider_eye",
+      "minecraft:magma_cream",
+      "minecraft:blaze_powder",
+      "minecraft:eye_of_ender"
+    ],
+    [
+      "minecraft:flower_pot",
+      "minecraft:white_candle",
+      "minecraft:orange_candle",
+      "minecraft:magenta_candle",
+      "minecraft:purple_candle",
+      "minecraft:cyan_candle",
+      "minecraft:blue_candle"
+    ],
+    [
+      "minecraft:mangrove_planks",
+      "minecraft:mangrove_slab",
+      "minecraft:mangrove_stairs",
+      "minecraft:mangrove_door",
+      "minecraft:mangrove_fence",
+      "minecraft:mangrove_fence_gate"
+    ]
+  ]
+}

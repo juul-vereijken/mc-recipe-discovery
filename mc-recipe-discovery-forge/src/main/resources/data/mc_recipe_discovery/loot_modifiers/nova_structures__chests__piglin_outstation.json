@@ -1,0 +1,32 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "nova_structures:chests/piglin_outstation"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:golden_helmet",
+      "minecraft:golden_chestplate",
+      "minecraft:golden_leggings",
+      "minecraft:golden_boots"
+    ],
+    [
+      "minecraft:golden_sword",
+      "minecraft:golden_pickaxe",
+      "minecraft:golden_axe",
+      "minecraft:golden_shovel"
+    ],
+    [
+      "minecraft:gold_block",
+      "minecraft:golden_apple",
+      "minecraft:golden_carrot"
+    ],
+    [
+      "minecraft:crying_obsidian",
+      "minecraft:respawn_anchor"
+    ]
+  ]
+}

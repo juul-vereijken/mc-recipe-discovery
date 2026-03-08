@@ -1,0 +1,26 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/igloo_chest"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:packed_ice",
+      "minecraft:blue_ice",
+      "minecraft:snow_block"
+    ],
+    [
+      "minecraft:campfire",
+      "minecraft:soul_campfire",
+      "minecraft:smoker",
+      "minecraft:blast_furnace"
+    ],
+    [
+      "minecraft:soul_torch",
+      "minecraft:soul_lantern"
+    ]
+  ]
+}
