@@ -1,0 +1,274 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 3.0,
+        "max": 8.0
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 8.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobblestone",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 8.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clay_ball",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 4.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_bricks",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 6.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sandstone",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 4.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:knowledge_book",
+          "weight": 11,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:recipes": [
+                  "minecraft:stonecutter",
+                  "minecraft:stone_bricks",
+                  "minecraft:stone_brick_slab",
+                  "minecraft:stone_brick_stairs",
+                  "minecraft:stone_brick_wall"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:knowledge_book",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:recipes": [
+                  "minecraft:polished_andesite",
+                  "minecraft:polished_diorite",
+                  "minecraft:polished_granite",
+                  "minecraft:polished_andesite_slab",
+                  "minecraft:polished_diorite_slab",
+                  "minecraft:polished_granite_slab",
+                  "minecraft:polished_andesite_stairs",
+                  "minecraft:polished_diorite_stairs",
+                  "minecraft:polished_granite_stairs"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:knowledge_book",
+          "weight": 9,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:recipes": [
+                  "minecraft:smooth_stone",
+                  "minecraft:smooth_stone_slab",
+                  "minecraft:cut_sandstone",
+                  "minecraft:chiseled_sandstone",
+                  "minecraft:chiseled_stone_bricks",
+                  "minecraft:mossy_stone_bricks",
+                  "minecraft:mossy_cobblestone",
+                  "minecraft:cracked_stone_bricks"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:knowledge_book",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:recipes": [
+                  "minecraft:bricks",
+                  "minecraft:brick_slab",
+                  "minecraft:brick_stairs",
+                  "minecraft:brick_wall"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:knowledge_book",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:recipes": [
+                  "minecraft:sandstone",
+                  "minecraft:sandstone_slab",
+                  "minecraft:sandstone_stairs",
+                  "minecraft:sandstone_wall",
+                  "minecraft:red_sandstone",
+                  "minecraft:red_sandstone_slab",
+                  "minecraft:red_sandstone_stairs",
+                  "minecraft:red_sandstone_wall"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:knowledge_book",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:recipes": [
+                  "minecraft:cobblestone_slab",
+                  "minecraft:cobblestone_stairs",
+                  "minecraft:cobblestone_wall"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:knowledge_book",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:recipes": [
+                  "minecraft:tuff_bricks",
+                  "minecraft:polished_tuff",
+                  "minecraft:chiseled_tuff",
+                  "minecraft:tuff_brick_slab",
+                  "minecraft:tuff_brick_stairs",
+                  "minecraft:tuff_brick_wall",
+                  "minecraft:polished_tuff_slab",
+                  "minecraft:polished_tuff_stairs",
+                  "minecraft:polished_tuff_wall"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:knowledge_book",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:recipes": [
+                  "minecraft:mud_bricks",
+                  "minecraft:mud_brick_slab",
+                  "minecraft:mud_brick_stairs",
+                  "minecraft:mud_brick_wall"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "comment": "recipe_discovery: knowledge book pool"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "supported_formats": [
+      48,
+      61
+    ],
+    "description": "\u00a76Recipe Discovery\u00a7r - Find books to unlock crafting"
+  }
+}
