@@ -1,0 +1,43 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "nova_structures:chests/end_castle"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:end_stone_bricks",
+      "minecraft:end_stone_brick_slab",
+      "minecraft:end_stone_brick_stairs",
+      "minecraft:end_stone_brick_wall"
+    ],
+    [
+      "minecraft:purpur_block",
+      "minecraft:purpur_pillar",
+      "minecraft:purpur_slab",
+      "minecraft:purpur_stairs"
+    ],
+    [
+      "minecraft:end_crystal",
+      "minecraft:popped_chorus_fruit"
+    ],
+    [
+      "minecraft:netherite_sword",
+      "minecraft:netherite_axe",
+      "minecraft:netherite_helmet",
+      "minecraft:netherite_chestplate",
+      "minecraft:netherite_leggings",
+      "minecraft:netherite_boots"
+    ],
+    [
+      "minecraft:diamond_sword",
+      "minecraft:diamond_pickaxe",
+      "minecraft:diamond_helmet",
+      "minecraft:diamond_chestplate",
+      "minecraft:diamond_leggings",
+      "minecraft:diamond_boots"
+    ]
+  ]
+}

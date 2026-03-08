@@ -1,0 +1,21 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/shipwreck_map"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:compass",
+      "minecraft:map",
+      "minecraft:item_frame",
+      "minecraft:clock"
+    ],
+    [
+      "minecraft:spyglass",
+      "minecraft:glow_item_frame"
+    ]
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/trial_chambers/supply"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:tuff_bricks",
+      "minecraft:polished_tuff",
+      "minecraft:chiseled_tuff",
+      "minecraft:tuff_brick_slab",
+      "minecraft:tuff_brick_stairs"
+    ],
+    [
+      "minecraft:iron_pickaxe",
+      "minecraft:iron_sword",
+      "minecraft:iron_helmet",
+      "minecraft:iron_chestplate"
+    ]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/village/village_toolsmith"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:iron_pickaxe",
+      "minecraft:iron_shovel",
+      "minecraft:iron_hoe",
+      "minecraft:golden_pickaxe",
+      "minecraft:golden_shovel"
+    ],
+    [
+      "minecraft:diamond_pickaxe",
+      "minecraft:diamond_shovel",
+      "minecraft:diamond_hoe",
+      "minecraft:diamond_axe"
+    ],
+    [
+      "minecraft:smithing_table",
+      "minecraft:grindstone",
+      "minecraft:anvil",
+      "minecraft:spyglass"
+    ]
+  ]
+}

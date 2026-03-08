@@ -1,0 +1,16 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/bastion_hoglin_stable"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:gold_block",
+      "minecraft:golden_apple",
+      "minecraft:golden_carrot"
+    ]
+  ]
+}

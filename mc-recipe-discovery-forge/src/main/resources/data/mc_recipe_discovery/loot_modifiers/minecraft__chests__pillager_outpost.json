@@ -1,0 +1,20 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/pillager_outpost"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:crossbow",
+      "minecraft:shield"
+    ],
+    [
+      "minecraft:target",
+      "minecraft:tripwire_hook",
+      "minecraft:redstone_lamp"
+    ]
+  ]
+}

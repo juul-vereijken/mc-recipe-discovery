@@ -1,0 +1,40 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "nova_structures:chests/jungle_ruins"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:jungle_planks",
+      "minecraft:jungle_slab",
+      "minecraft:jungle_stairs",
+      "minecraft:jungle_door",
+      "minecraft:jungle_fence",
+      "minecraft:jungle_fence_gate"
+    ],
+    [
+      "minecraft:mossy_cobblestone",
+      "minecraft:mossy_stone_bricks",
+      "minecraft:chiseled_stone_bricks",
+      "minecraft:cracked_stone_bricks"
+    ],
+    [
+      "minecraft:piston",
+      "minecraft:sticky_piston",
+      "minecraft:dispenser",
+      "minecraft:tripwire_hook"
+    ],
+    [
+      "minecraft:bow",
+      "minecraft:arrow",
+      "minecraft:bamboo_planks",
+      "minecraft:bamboo_slab",
+      "minecraft:bamboo_stairs",
+      "minecraft:bamboo_door",
+      "minecraft:bamboo_raft"
+    ]
+  ]
+}

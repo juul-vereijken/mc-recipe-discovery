@@ -1,0 +1,26 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "nova_structures:chests/creeping_crypt"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:tnt",
+      "minecraft:dispenser",
+      "minecraft:piston",
+      "minecraft:sticky_piston"
+    ],
+    [
+      "minecraft:stone_bricks",
+      "minecraft:mossy_stone_bricks",
+      "minecraft:cracked_stone_bricks",
+      "minecraft:chiseled_stone_bricks",
+      "minecraft:stone_brick_slab",
+      "minecraft:stone_brick_stairs",
+      "minecraft:stone_brick_wall"
+    ]
+  ]
+}

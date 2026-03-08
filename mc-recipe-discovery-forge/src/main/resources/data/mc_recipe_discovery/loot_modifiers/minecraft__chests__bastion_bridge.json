@@ -1,0 +1,16 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/bastion_bridge"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:lodestone",
+      "minecraft:respawn_anchor",
+      "minecraft:crying_obsidian"
+    ]
+  ]
+}

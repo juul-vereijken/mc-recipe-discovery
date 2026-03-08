@@ -1,0 +1,34 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/shipwreck_supply"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:oak_boat",
+      "minecraft:spruce_boat",
+      "minecraft:birch_boat",
+      "minecraft:jungle_boat",
+      "minecraft:acacia_boat",
+      "minecraft:dark_oak_boat",
+      "minecraft:mangrove_boat",
+      "minecraft:cherry_boat",
+      "minecraft:bamboo_raft"
+    ],
+    [
+      "minecraft:oak_chest_boat",
+      "minecraft:spruce_chest_boat",
+      "minecraft:birch_chest_boat",
+      "minecraft:jungle_chest_boat"
+    ],
+    [
+      "minecraft:bucket",
+      "minecraft:fishing_rod",
+      "minecraft:carrot_on_a_stick",
+      "minecraft:warped_fungus_on_a_stick"
+    ]
+  ]
+}

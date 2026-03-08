@@ -1,0 +1,29 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "nova_structures:chests/illager_camp"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:crossbow",
+      "minecraft:bow",
+      "minecraft:arrow"
+    ],
+    [
+      "minecraft:leather_helmet",
+      "minecraft:leather_chestplate",
+      "minecraft:leather_leggings",
+      "minecraft:leather_boots"
+    ],
+    [
+      "minecraft:dark_oak_fence",
+      "minecraft:dark_oak_fence_gate",
+      "minecraft:dark_oak_planks",
+      "minecraft:dark_oak_slab",
+      "minecraft:dark_oak_stairs"
+    ]
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/stronghold_crossing"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:compass",
+      "minecraft:clock",
+      "minecraft:spyglass"
+    ],
+    [
+      "minecraft:hopper",
+      "minecraft:dropper",
+      "minecraft:dispenser"
+    ],
+    [
+      "minecraft:golden_apple"
+    ]
+  ]
+}

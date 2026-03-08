@@ -1,0 +1,46 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "nova_structures:chests/nether_keep"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:nether_brick",
+      "minecraft:nether_brick_slab",
+      "minecraft:nether_brick_stairs",
+      "minecraft:nether_brick_wall",
+      "minecraft:nether_brick_fence"
+    ],
+    [
+      "minecraft:red_nether_bricks",
+      "minecraft:red_nether_brick_slab",
+      "minecraft:red_nether_brick_stairs",
+      "minecraft:red_nether_brick_wall"
+    ],
+    [
+      "minecraft:blaze_powder",
+      "minecraft:magma_cream",
+      "minecraft:brewing_stand",
+      "minecraft:magma_block"
+    ],
+    [
+      "minecraft:golden_helmet",
+      "minecraft:golden_chestplate",
+      "minecraft:golden_leggings",
+      "minecraft:golden_boots"
+    ],
+    [
+      "minecraft:netherite_sword",
+      "minecraft:netherite_axe",
+      "minecraft:netherite_pickaxe",
+      "minecraft:netherite_hoe"
+    ],
+    [
+      "minecraft:respawn_anchor",
+      "minecraft:crying_obsidian"
+    ]
+  ]
+}

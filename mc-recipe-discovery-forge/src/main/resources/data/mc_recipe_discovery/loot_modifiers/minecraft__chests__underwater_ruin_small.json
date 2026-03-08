@@ -1,0 +1,16 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/underwater_ruin_small"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:prismarine",
+      "minecraft:sea_lantern",
+      "minecraft:conduit"
+    ]
+  ]
+}

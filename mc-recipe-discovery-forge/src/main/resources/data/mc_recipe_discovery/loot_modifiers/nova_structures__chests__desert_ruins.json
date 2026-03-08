@@ -1,0 +1,43 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "nova_structures:chests/desert_ruins"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:sandstone",
+      "minecraft:sandstone_slab",
+      "minecraft:sandstone_stairs",
+      "minecraft:sandstone_wall",
+      "minecraft:cut_sandstone",
+      "minecraft:chiseled_sandstone",
+      "minecraft:smooth_sandstone",
+      "minecraft:smooth_sandstone_slab",
+      "minecraft:smooth_sandstone_stairs"
+    ],
+    [
+      "minecraft:red_sandstone",
+      "minecraft:red_sandstone_slab",
+      "minecraft:red_sandstone_stairs",
+      "minecraft:red_sandstone_wall",
+      "minecraft:cut_red_sandstone",
+      "minecraft:chiseled_red_sandstone",
+      "minecraft:smooth_red_sandstone",
+      "minecraft:smooth_red_sandstone_slab",
+      "minecraft:smooth_red_sandstone_stairs"
+    ],
+    [
+      "minecraft:tnt",
+      "minecraft:fire_charge",
+      "minecraft:white_terracotta",
+      "minecraft:orange_terracotta",
+      "minecraft:yellow_terracotta",
+      "minecraft:red_terracotta",
+      "minecraft:brown_terracotta",
+      "minecraft:gray_terracotta"
+    ]
+  ]
+}

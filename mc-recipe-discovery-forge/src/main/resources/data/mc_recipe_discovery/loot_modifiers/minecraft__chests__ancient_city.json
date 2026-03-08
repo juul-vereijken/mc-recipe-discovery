@@ -1,0 +1,22 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/ancient_city"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:calibrated_sculk_sensor"
+    ],
+    [
+      "minecraft:recovery_compass"
+    ],
+    [
+      "minecraft:diamond_hoe",
+      "minecraft:diamond_sword",
+      "minecraft:enchanting_table"
+    ]
+  ]
+}

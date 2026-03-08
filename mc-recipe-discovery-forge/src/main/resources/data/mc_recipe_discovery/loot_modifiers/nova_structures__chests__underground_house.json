@@ -1,0 +1,42 @@
+{
+  "type": "mc_recipe_discovery:add_recipe_book",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "nova_structures:chests/underground_house"
+    }
+  ],
+  "recipe_groups": [
+    [
+      "minecraft:chest",
+      "minecraft:trapped_chest",
+      "minecraft:barrel"
+    ],
+    [
+      "minecraft:white_shulker_box",
+      "minecraft:orange_shulker_box",
+      "minecraft:magenta_shulker_box",
+      "minecraft:light_blue_shulker_box",
+      "minecraft:yellow_shulker_box",
+      "minecraft:lime_shulker_box",
+      "minecraft:pink_shulker_box",
+      "minecraft:gray_shulker_box"
+    ],
+    [
+      "minecraft:cyan_shulker_box",
+      "minecraft:purple_shulker_box",
+      "minecraft:blue_shulker_box",
+      "minecraft:brown_shulker_box",
+      "minecraft:green_shulker_box",
+      "minecraft:red_shulker_box",
+      "minecraft:black_shulker_box",
+      "minecraft:light_gray_shulker_box"
+    ],
+    [
+      "minecraft:crafting_table",
+      "minecraft:furnace",
+      "minecraft:smoker",
+      "minecraft:blast_furnace"
+    ]
+  ]
+}
